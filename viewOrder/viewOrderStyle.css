@@ -1,0 +1,33 @@
+.body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+table, th, td, thead {
+    border: 1px solid black;
+    height: 30%;
+  }
+
+table {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+th{
+    height: 55px;
+    padding-left: 8px;
+}
+
+td {
+    height: 50px;
+    padding-left: 8px;
+}
+
+.back {
+    color: blue;
+}
