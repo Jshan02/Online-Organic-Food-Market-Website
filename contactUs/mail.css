@@ -1,0 +1,19 @@
+.container {
+    margin-top: 180px;
+}
+
+.card {
+    background-color: #CDF2CA;
+}
+
+.card-body {
+    padding-top: 20px;
+}
+
+body {
+    background-color: #CDF2CA;
+}
+
+.text {
+    font-family: 'Magra', sans-serif;
+}

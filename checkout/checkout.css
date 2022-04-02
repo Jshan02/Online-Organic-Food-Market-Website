@@ -1,0 +1,97 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap");
+
+a {
+  display: contents;
+  text-decoration: none;
+  color: var(--black);
+}
+
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+  --lgreen: #f3fde7;
+  --font-family-magra: 'Magra', sans-serif;
+}
+
+body{
+  align-items: flex-start;
+  background-color: var(--white);
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.nav{
+    margin-top: 120px;
+    height: 50px;
+    background-color: rgb(235, 235, 235);
+}
+
+.title{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.shipAddress{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 71rem;
+}
+
+.deliveryOpt{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.itemBox{
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+
+.paymentOpt{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.amount{
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.submitbtn {
+    float: right;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
+.clear{
+    clear: both;
+}
+
+.proPicDiv{
+    float: left;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.proPicDiv img{
+    height: 200px;
+    object-fit: contain;
+}
+
+.proDetails{
+    padding-top: 30px;
+}
+
+p{
+    font-size: 18px;
+}

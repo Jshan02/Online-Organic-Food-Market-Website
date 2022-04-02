@@ -1,0 +1,59 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap");
+
+a {
+  display: contents;
+  text-decoration: none;
+  color: var(--black);
+}
+
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+  --lgreen: #f3fde7;
+  --font-family-magra: 'Magra', sans-serif;
+}
+
+body{
+  align-items: flex-start;
+  background-color: var(--white);
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+h1 {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-magra);
+  text-align: center;
+  font-size: 50px;
+}
+
+.addressBox{
+  height: auto;
+  width: 95%;
+  background-color: var(--lgreen);
+  margin: 30px 30px;
+  padding: 50px 100px;
+}
+
+td {
+  font-family: var(--font-family-magra);
+  font-size: 20px;
+  padding: 3px;
+}
+
+.manage{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.add{
+  text-align: center;
+}

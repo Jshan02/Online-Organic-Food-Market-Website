@@ -1,0 +1,142 @@
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* change 1280 to 100%*/
+.our-story {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* height: 820px; */
+  /* overflow: hidden; */
+  /* width: 1240px; */
+  width: 100%;
+}
+
+
+.our-story .overlap-group {
+  align-items: flex-end;
+  background-image: url(aboutus.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-right: 2.0px;
+  min-height: 476px;
+  padding: 14px 76px;
+  width: 100%;
+  /* width: 1240px; */
+}
+
+.vission-mission-title {
+  stroke: 1px white;
+  color: white;
+  font-family: 'Magra', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-right: 145px;
+  margin-top: 80px;
+  min-height: 56px;
+  min-width: 352px;
+}
+
+.vission-mission {
+  letter-spacing: 0;
+  margin-top: 22px;
+  min-height: 296px;
+  text-align: justify;
+  width: 630px;
+}
+
+.vision-mission-text {
+  align-self: flex-end;
+  color: #FFFFFF;
+  font-family: 'Magra', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  min-height: 296px;
+  text-align: justify;
+  width: 650px;
+  padding-top: 5px;
+}
+
+.start-shopping {
+    align-items:flex-start;
+    display: flex;
+    height: 57px;
+    justify-content: flex-end;
+    margin-right: 236px;
+    min-width: 246px;
+    padding: 0.005px 22px;
+}
+
+.start-shopping {
+  letter-spacing: 0;
+  min-height: 34px;
+  min-width: 172px;
+  text-align: center;
+}
+
+.our-story-title {
+  color: black;
+  font-family: 'Magra', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 58px;
+  min-width: 187px;
+  margin-top: 50px;
+  padding-right: 200px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 244px;
+  margin-right: 13.0px;
+  margin-top: 1px;
+  min-width: 1197px;
+}
+
+.logo-black {
+  height: 189px;
+  object-fit: cover;
+  width: 388px;
+}
+
+.our-story-text {
+  align-self: flex-end;
+  color: black;
+  font-family: 'Magra', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-left: 29px;
+  min-height: 224px;
+  text-align: justify;
+  width: 780px;
+  margin-bottom: 10px;
+}
+
+a {
+  display: contents;
+  text-decoration: none;
+  color:black
+}
+ 

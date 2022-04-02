@@ -1,0 +1,106 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap");
+
+.signUp a {
+    display: contents;
+    text-decoration: none;
+    color: var(--black);
+}
+
+:root { 
+    --black: #000000;
+    --white: #ffffff;
+    --lgreen: #f3fde7;
+    --font-family-magra: 'Magra', sans-serif;
+}
+
+.signUp {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+
+.signUp .left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.signUp .logo {
+    height: 100px;
+    object-fit: contain;
+}
+
+.signUp h3 {
+    color: var(--black);
+    font-family: var(--font-family-magra);
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.signUp .signupForm {
+    margin-top: 10px;
+}
+
+.signUp .signupForm input {
+    width: 48.5%;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signUp .signupbtn .btn{
+    align-self: center;
+    margin-bottom: 5px;
+    margin-left: 220px;
+  }
+
+.signUp .right {
+    background-color: var(--lgreen);
+    display: flex;
+    flex-direction: column;
+    padding: 150px 70px;
+    width: 60%;
+}
+
+.signUp h1 {
+    align-self: center;
+    color: var(--black);
+    font-family: var(--font-family-magra);
+    font-size: 50px; 
+    font-weight: 400;
+    text-align: center;
+  }
+
+.signUp .btn {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.signUp h4 {
+    color: var(--black);
+    font-family: var(--font-family-magra);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+.signUp .reason {
+    color: var(--black);
+    font-family: var(--font-family-magra);
+    font-size: 15px;
+    margin-top: 5px;
+    align-self: center;
+}

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding-top: 150px;
+    background-color: #CDF2CA;
+    height: 50%;
+    text-align: center;
+    font-family: 'Magra', sans-serif;
+}
+
+.container {
+    background-color: #CDF2CA;
+}
+
+.title {
+    padding-left: 40%;
+    font-family: 'Magra', sans-serif;
+}
+
+.form-groupname {
+    padding-left: 42%;
+    font-family: 'Magra', sans-serif;
+}
+
+/* placeholder */
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 3px;
+    font-size: .825rem;
+    background: #ffffff;
+    color: #2e323c;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    font-family: 'Magra', sans-serif;
+}
+
+.card {
+    background-color: #CDF2CA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid;
+    margin-bottom: 1rem;
+}
+
+.button-profile {
+    padding-top: 5px;
+    /* padding-left: 45%; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a {
+    display: contents;
+    text-decoration: none;
+    color: black;
+  }

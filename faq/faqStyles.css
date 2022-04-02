@@ -1,0 +1,75 @@
+body { 
+    font-size: 'Magra', sans-serif;
+    background-color: #CDF2CA; 
+  }
+
+.faq-heading{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 'Magra', sans-serif;
+    background-color: #CDF2CA; 
+}
+
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Magra', sans-serif;
+    background-color: #CDF2CA;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 23px;
+
+}
+.faq-body{
+    margin: auto;
+    font-size: 16px;
+    /* text-align: center; */
+    width: 50%; 
+    padding: 10px;
+    background-color: #CDF2CA;
+}
+
+/* Add a background color to the button if it is clicked on 
+(add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+.faq-body {
+    padding: 0 18px;
+    background-color: #CDF2CA;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    /* Unicode character for "plus" sign (+) */
+    content: '\02795';
+    font-size: 16px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    /* Unicode character for "minus" sign (-) */
+    content: "\2796";
+}

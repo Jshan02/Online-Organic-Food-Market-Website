@@ -1,0 +1,122 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap");
+
+.logIn a {
+  display: contents;
+  text-decoration: none;
+  color: var(--black);
+}
+
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+  --lgreen: #f3fde7;
+  --font-family-magra: 'Magra', sans-serif;
+}
+
+.logIn {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.logIn .left {
+  align-items: flex-start;
+  background-color: var(--lgreen);
+  display: flex;
+  flex-direction: column;
+  padding: 149px 70px;
+  width: 60%;
+}
+
+.logIn h1 {
+  align-self: center;
+  color: var(--black);
+  font-family: var(--font-family-magra);
+  font-size: 50px; 
+  font-weight: 400;
+  text-align: center;
+}
+
+.logIn .btn {
+  align-self: center;
+  margin-top: 10px;
+}
+
+
+.logIn h4 {
+  color: var(--black);
+  font-family: var(--font-family-magra);
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 50px;
+  text-align: center;
+  align-self: center;
+}
+
+.logIn .reason {
+  color: var(--black);
+  font-family: var(--font-family-magra);
+  font-size: 15px;
+  margin-left: 3px;
+  margin-top: 5px;
+  align-self: center;
+}
+
+.logIn .right {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.logIn .logo {
+  height: 100px;
+  object-fit: contain;
+}
+
+.logIn h3 {
+  color: var(--black);
+  font-family: var(--font-family-magra);
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logIn .loginForm {
+  margin-top: 20px;
+}
+
+.logIn .loginForm input {
+  width: 100%;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.logIn .forgotPassword {
+  margin-left: 370px;
+  text-align: center;
+  width: 179px;
+}
+
+.logIn .loginbtn .btn{
+  margin-top: 15px;
+  align-self: center;
+  margin-bottom: 10px;
+  margin-left: 240px;
+}
+
+.logIn .terms {
+  align-self: center;
+  text-align: center;
+}
